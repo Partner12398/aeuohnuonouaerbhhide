@@ -815,7 +815,7 @@ local otherTab = win:Tab("Other", "http://www.roblox.com/asset/?id=10213989952")
 otherTab:Button("Discord Server", "Copies Discord server link", function()
     local cboard = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
     if cboard then
-        cboard("https://discord.gg/FmwTtdfAJ4")
+        cboard("https://discord.gg/MqsgXZBgqE")
     end
     Flux:Notification("Copied to clipboard", "https://discord.gg/FmwTtdfAJ4", "Okay")
 end)
